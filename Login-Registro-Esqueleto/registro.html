@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+    <a href="/login.html">Iniciar sesión</a>
+    <br>
+   <form action="/dashboard.html" method="get">
+    <h2>Registrarse</h2>    
+   <input class="inp" name="Nombre" type="text" placeholder="Nombre"> 
+   <input class="inp" name="Apellido" type="password" placeholder="Apellido"> <br>
+   <input class="inp" name="user" type="text" placeholder="Email O Usuario"> 
+   <input class="inp" name="pass" type="password" placeholder="Contraseña"> <br>
+   <input name="email" type="email" style="width: 470px; height: 430;"   placeholder="Correo Electrónico"><br>
+   <br>
+
+   <h3>Fecha de Nacimiento</h3>
+   <input type="date" value="2017-06-01" />
+   <br>
+   <h3>Género</h3>
+   <label for="Mujer"><input  id="Mujer" type="radio" name="genero" class="mb-05">Mujer</label>
+   <label for="Hombre"><input  id="Hombre" type="radio" name="genero" class="mb-05">Hombre</label>
+   <label for="Otros"><input  id="Otros" type="radio" name="genero" class="mb-05">Otros</label>
+
+
+<br>
+<h3>Selecciona tu música de interes</h3>
+<label for="Rock"><input  id="Rock" type="checkbox" name="Musica" class="mb-05">Rock</label> <br>
+<label for="Reggae"><input  id="Reggae" type="checkbox" name="Musica" class="mb-05">Reggae</label> <br>
+<label for="Jazz"><input  id="Jazz" type="checkbox" name="Musica" class="mb-05">Jazz</label> <br>
+<br>
+<button  type="submit">Registrarse</button>
+   </form>
+    
+
+</body>
+</html>
